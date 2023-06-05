@@ -33,6 +33,7 @@ def generate_thread():
     print("\n")
     print(text)
     print(id)
+    print("https://boards.4chan.org/{}/thread/{}/".format(random_board, id))
     board_input = input("Press Enter to generate thread")
     
 board_input = input("Press Enter to generate thread")
